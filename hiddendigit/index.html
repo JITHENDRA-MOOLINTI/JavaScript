@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hidden Digit</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+   <header>
+       <div class="title"><h1>The Hidden Digit</h1></div>
+   </header>
+   <section>
+        <div><h3 class="num"><Marquee direction="right" behavior="alternate" scrollamount="5">Pick a Number(0-10)</Marquee></h3></div>
+   </section>
+    <section class="outer_conatiner">
+        <div class="conatiner">
+            <h1 class="number">?</h1>
+        </div>
+        <div class="input_container">
+            <input type="number" name="input_number" id="input_number" min="0" max="10" class="pad">
+            <button class="btn pad">Check</button>
+        </div>
+    </section>
+    <section class="result">
+        <div><h3 class="guess">🧠 Guess The Number</h3></div>
+      <div><h3 class="update"><span>&#127918;</span>Game Score: 30</h3></div>
+       <div><h3 class="score"><span>&#127941;</span>All The Best:</h3></div>
+       <div><h3 class="chances">🎲 Total Chances: 3</h3></div>
+    </section>
+    <section class="replay"><button class="btn2"><span>&#x1F3AE;</span>Replay</button></section>
+    <script src="index.js"></script>
+</body>
+</html>

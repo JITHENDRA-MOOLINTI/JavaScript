@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    padding: 0.4rem;
+    text-align: center;
+    color: rgb(209, 8, 8);
+}
+.conatiner {
+    padding: 1.2rem;
+    margin: 0 auto;   /* Centers horizontally */
+    border: 2px solid green;
+    width: 100px;     /* give width so auto works */
+    background-color: white;
+}
+
+.number{
+    text-align: center;
+}
+.num{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.input{
+    padding: 1.2rem;
+}
+
+.input_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.2rem;
+    
+}
+/* .pad{
+    padding: 0.8rem 1.2rem;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+} */
+.btn{
+    font-size: 1.2rem;
+    font-weight:bolder;
+}
+.pad:hover{
+    border: 2px solid red;
+}
+.result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+
+}
+.result h3 {
+    margin: 0;        /* remove default margins */
+    padding: 0;       /* remove default padding */
+    text-align:center; /* align all text to the left */
+    width: 100%;      /* make each heading stretch full width of parent */
+    color: white;
+}
+
+.replay{
+    text-align: center;
+    margin: 2rem;
+}
+.btn2{
+    padding: 0.4rem;
+    font-size: 1.2rem;
+    color: rgb(91, 4, 57);
+    background-color: white;
+}
+span{
+    font-weight: bolder;
+    font-size: 1.6rem;
+}
+body{
+    background-color: black;
+}
+
+#input_number,.pad{
+  text-align: center;   
+  font-size: 18px;     
+  padding: 5px;        
+  width: 120px;         
+}

@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    font-family: "Timmana", sans-serif;
+}
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 8.8rem;
+    border: 2px solid red;
+    
+}
+
+.header__in{
+    /* border: 2px solid blueviolet; */
+    width: 80%;
+    height: 37%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(143, 212, 33);
+    border-top-left-radius: 2.4em ;
+    border-bottom-left-radius: 1.0em;
+    border-bottom-right-radius: 2.4em ;
+    border-top-right-radius: 1.0em;
+}
+.locations{
+    display: flex;
+    flex-grow: 1;
+    padding-left: 2em;
+    
+}
+.words{
+    display: flex;
+    align-items: center;
+    /* border: 2px solid brown; */
+    flex-grow: 1;
+    justify-content: flex-end;
+    padding-right: 2em;
+}
+.first__location,.second__location{
+    display: flex;
+    align-items: center;
+    /* border: 2px solid green; */
+}
+.icon{
+    padding: 0.8em;
+    font-size: 1.2rem;
+   
+}
+.bi-geo-alt-fill,.bi-envelope-fill{
+    color:rgb(246, 246, 11);
+}
+
+.icon-1{
+    padding: 0.2em;
+    color: white;
+    cursor: pointer;
+}
+.word{
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-left: 0.4em;
+    color: white;
+}
+
+.words__in{
+  padding: 0.4em;
+  /* border: 2px solid black; */
+  
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.a{
+
+    transition: color 0.4s ease 0s;
+}
+.a:hover{
+   color: rgb(246, 246, 11);
+}
+.nav__bar{
+    border: 2px solid green;
+    height: 63%;
+}
