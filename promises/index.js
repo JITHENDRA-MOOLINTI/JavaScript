@@ -114,6 +114,10 @@ browse(restName)
 .then(()=>deliver(restName))
 .then(()=>console.log("deliver is Successfull"));
 
+function hello(){
+    console.log("hello");
+}
+
 
 
 
