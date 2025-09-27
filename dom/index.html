@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <style>
+        .main{
+            border: 2px solid red;
+            display: flex;
+            justify-content: space-around;
+            font-size: 29px;
+            background-color: aliceblue;
+        }
+        .main>nav:hover{
+            cursor: pointer;
+            color: brown;
+
+        }
+    </style> -->
+
+    <style>
+        .outercontainer {
+            display: flex;
+            justify-content: space-between;
+            box-sizing: border-box;
+        }
+
+        .innercontainer {
+            border: 2px solid black;
+            padding: 1.2rem;
+            background-color: aliceblue;
+            border-radius: 5px;
+            /* remove fixed height */
+            height: auto;
+            /* box grows with content */
+            box-sizing: border-box;
+        }
+       .innercontainer h4{
+        margin: 0;
+        padding: 0;
+       }
+        .innercontainer:hover {
+            cursor: pointer;
+            transform: scale(1.1);
+            /* increases size by 10% */
+            background-color: lightyellow;
+        }
+    </style>
+</head>
+
+<body>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
